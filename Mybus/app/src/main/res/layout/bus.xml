@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/b107"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Bus no.107"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_directions_bus_24"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/b17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b107"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Bus no.17"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_directions_bus_24"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/b117"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b17"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Bus no.117"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_directions_bus_24"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/b17E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b117"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Bus no.17E"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_directions_bus_24"
+        android:textStyle="bold"></TextView>
+
+</RelativeLayout>

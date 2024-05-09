@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/swaminarayanchowk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Swaminarayan Chowk"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/railwaystation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/swaminarayanchowk"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Railway Station Terminal"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/kapodra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/railwaystation"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="DGVCL kadpodra"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/udhana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kapodra"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Udhana Darwaja"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/kargilchowk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/udhana"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Kargil chowk"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+</RelativeLayout>
